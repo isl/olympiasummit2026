@@ -203,7 +203,7 @@ img {
 .hero h1 {
   margin: 14px 0 12px;
   max-width: 900px;
-  font-size: clamp(50px, 6vw, 82px);
+  font-size: clamp(30px, 6vw, 62px);
   line-height: .94;
   letter-spacing: -.035em;
   text-transform: uppercase;
