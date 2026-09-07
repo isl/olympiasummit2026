@@ -431,6 +431,12 @@ blockquote {
 
 /* Themes */
 
+.theme-grid-2c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
 .theme-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -455,6 +461,16 @@ blockquote {
   pointer-events: none;
 }
 
+.theme-card-spons {
+  min-height: 380px;
+  padding: 30px 28px;
+  border: 1px solid rgba(114,71,25,.47);
+  background:
+    linear-gradient(rgba(248,239,217,.72), rgba(239,224,189,.58)),
+    url("assets/olympia-temple.jpg") center / cover;
+  position: relative;
+}
+
 .theme-medallion {
   width: 54px;
   height: 54px;
@@ -464,6 +480,20 @@ blockquote {
   border-radius: 50%;
   background: var(--brown);
   color: var(--paper-light);
+  font-weight: 800;
+  letter-spacing: .06em;
+}
+
+.theme-medallion-spons {
+  width: 250px;
+  height: 70px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 42px;
+  border-radius: 50%;
+  /* background: var(--brown); */
+  /* background: silver; */
+  /* color: var(--paper-light); */
   font-weight: 800;
   letter-spacing: .06em;
 }
